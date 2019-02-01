@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 
+import About from '../components/About/About';
+
 class App extends Component {
   state = {
     numbers: [],
@@ -123,6 +125,7 @@ class App extends Component {
             <button className="alt" value="+" onClick={this.onOperatorCLick}>+</button>
           </div>
         </div>
+        <About />
       </div>
     );
   }
