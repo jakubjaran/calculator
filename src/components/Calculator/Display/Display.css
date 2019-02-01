@@ -1,0 +1,30 @@
+.Display .display {
+    box-sizing: border-box;
+    background: #fcf9ed;
+    padding: 15px;
+    width: 315px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border: 5px solid #e3e3e3;
+    font-family: 'Baloo', cursive;
+}
+
+.Display .result {
+    margin-bottom: 10px;
+    height: 75px;
+    color: #494161;
+    border-radius: 0 0 .5rem .5rem;
+    border-top: 0;
+    font-size: 3rem;
+}
+
+.Display .history {
+    margin: 0;
+    height: 35px;
+    padding-top: 25px;
+    color: #cccccc;
+    border-radius: .5rem .5rem 0 0;
+    border-bottom: 0;
+    font-size: 2rem;
+}

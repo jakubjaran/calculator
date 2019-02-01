@@ -1,7 +1,8 @@
 import React from 'react';
+import './About.css';
+
 import ReactLogo from '../../assets/react_logo.png';
 import GithubLogo from '../../assets/github_logo.png';
-import './About.css';
 
 const About = () => (
     <div className="About">

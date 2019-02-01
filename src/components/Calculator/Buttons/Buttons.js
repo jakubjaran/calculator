@@ -1,0 +1,90 @@
+import React from 'react';
+import './Buttons.css';
+
+const Buttons = (props) => (
+    <div className="Buttons">
+        <button
+            className="alt"
+            onClick={props.onCClick}
+        >C</button>
+        <button
+            className="alt"
+            onClick={props.onCEClick}
+        >CE</button>
+        <button
+            className="big alt"
+            onClick={props.onBkspcClick}
+        >&lt;--</button>
+        <button
+            value="7"
+            onClick={props.onNumberClick}
+        >7</button>
+        <button
+            value="8"
+            onClick={props.onNumberClick}
+        >8</button>
+        <button
+            value="9"
+            onClick={props.onNumberClick}
+        >9</button>
+        <button
+            className="alt"
+            value="/"
+            onClick={props.onOperatorCLick}
+        >/</button>
+        <button
+            value="4"
+            onClick={props.onNumberClick}
+        >4</button>
+        <button
+            value="5"
+            onClick={props.onNumberClick}
+        >5</button>
+        <button
+            value="6"
+            onClick={props.onNumberClick}
+        >6</button>
+        <button
+            className="alt"
+            value="*"
+            onClick={props.onOperatorCLick}
+        >*</button>
+        <button
+            value="1"
+            onClick={props.onNumberClick}
+        >1</button>
+        <button
+            value="2"
+            onClick={props.onNumberClick}
+        >2</button>
+        <button
+            value="3"
+            onClick={props.onNumberClick}
+        >3</button>
+        <button
+            className="alt"
+            value="-"
+            onClick={props.onOperatorCLick}
+        >-</button>
+        <button
+            className="alt"
+            value="."
+            onClick={props.onNumberClick}
+        >.</button>
+        <button
+            value="0"
+            onClick={props.onNumberClick}
+        >0</button>
+        <button
+            className="alt"
+            onClick={props.onCalc}
+        >=</button>
+        <button
+            className="alt"
+            value="+"
+            onClick={props.onOperatorCLick}
+        >+</button>
+    </div>
+);
+
+export default Buttons;
