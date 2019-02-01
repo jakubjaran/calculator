@@ -53,6 +53,16 @@
   box-shadow: 0px 5px 0px rgb(196, 165, 71);
 }
 
+.wrapper button:focus {
+  outline: none;
+}
+
+.wrapper button:active{
+  box-shadow: unset;
+  position: relative;
+  top: 5px;
+}
+
 .display {
   box-sizing: border-box;
   background: #fcf9ed;

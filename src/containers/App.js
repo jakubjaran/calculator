@@ -107,7 +107,7 @@ class App extends Component {
             <button className="alt" value="c" onClick={this.onCClick}>C</button>
             <button className="alt" value="ce" onClick={this.onCEClick}>CE</button>
             <button className="big alt" value="del" onClick={this.onBkspcClick}>&lt;--</button>
-            <button value="7" onClick={this.onNumberClick}>7</button>
+            <button className="clicked" value="7" onClick={this.onNumberClick}>7</button>
             <button value="8" onClick={this.onNumberClick}>8</button>
             <button value="9" onClick={this.onNumberClick}>9</button>
             <button className="alt" value="/" onClick={this.onOperatorCLick}>/</button>
